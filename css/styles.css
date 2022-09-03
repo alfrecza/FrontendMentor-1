@@ -125,7 +125,7 @@ body {
 }
 
 .cards__container{
-    height: 50vh;
+    height: 65%;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -164,11 +164,11 @@ body {
     color: var(--primario-2);
 }
 
-.card1 {
-    transform: translateY(-3rem);
+.card1{
+    align-self: flex-start;
+
 }
 
 .card3 {
-    transform: translateY(3rem);
+    align-self: flex-end;
 }
-
